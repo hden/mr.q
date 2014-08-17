@@ -1,6 +1,6 @@
 {
   "name": "mr.q",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "JSON AST to RethinkDB query",
   "main": "index.js",
   "scripts": {
