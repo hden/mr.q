@@ -1,0 +1,39 @@
+{
+  "name": "mr.q",
+  "version": "0.0.0",
+  "description": "JSON AST to RethinkDB query",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony",
+    "build": "./node_modules/.bin/coffee -co ./ src/",
+    "watch": "./node_modules/.bin/coffee -w -c -o ./ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hden/mr.q.git"
+  },
+  "keywords": [
+    "rethinkdb",
+    "json",
+    "ast"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/mr.q/issues"
+  },
+  "homepage": "https://github.com/hden/mr.q",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "co": "^3.1.0",
+    "coffee-script": "git://github.com/xixixao/coffee-script",
+    "mocha": "^1.21.4",
+    "rethinkdb-pool": "0.0.5"
+  },
+  "dependencies": {
+    "debug": "^1.0.4",
+    "traverse": "^0.6.6",
+    "rethinkdb": "^1.13.0-3",
+    "underscore": "^1.6.0"
+  }
+}
